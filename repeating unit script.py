@@ -26,7 +26,7 @@ def repeating_series(series):
         if series[:i] == series[i:2*i]:
             return series[:i]
     return series
-# make a long bracelet starting with 1 and 5
+# make a long bracelet starting with 1 and 3
 long_bracelet = number_bracelet(1000, 1, 3)
 
 # Find the repeating bracelet
@@ -60,7 +60,7 @@ def repeating_series(series):
         if series[:i] == series[i:2*i]:
             return series[:i]
     return series
-# make a long bracelet starting with 1 and 5
+# make a long bracelet starting with 0 and 2
 long_bracelet = number_bracelet(1000, 0, 2)
 
 # Find the repeating bracelet
@@ -94,7 +94,7 @@ def repeating_series(series):
         if series[:i] == series[i:2*i]:
             return series[:i]
     return series
-# make a long bracelet starting with 1 and 5
+# make a long bracelet starting with 0 and 5
 long_bracelet = number_bracelet(1000, 0, 5)
 
 # Find the repeating bracelet
@@ -128,7 +128,7 @@ def repeating_series(series):
         if series[:i] == series[i:2*i]:
             return series[:i]
     return series
-# make a long bracelet starting with 1 and 5
+# make a long bracelet starting with 2 and 6
 long_bracelet = number_bracelet(1000, 2, 6)
 
 # Find the repeating bracelet
